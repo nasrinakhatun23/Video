@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family: 'montserrat' sans-serif;
+}
+body{
+    margin: 0;
+    font-size: 17px;
+    background-size: cover;
+}
+#myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+.content{
+    position: fixed;
+    bottom: 0;
+    background: rgba(1,12,112,0.626);
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+.play-btn{
+    position: absolute;
+    top: 40vh;
+    right: 50vw;
+}
+.fa{
+    position: absolute;
+    margin-right: 50%;
+    color: rgba(255,255,255,0.302);
+    font-size: 88px;
+}
+
+
+video{
+    width: 100%;
+}
+
